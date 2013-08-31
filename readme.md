@@ -14,7 +14,7 @@ This is a prototype, please make suggestions.
 	assets\font-awesome  - Folder containing icon set
 	assets\normalize.css - Anti-CSS
 	assets\style.css     - Stylesheet
-    picard.html          - Demo vita
+    demo.html            - Demo vita
 
 ###Future plans
 
