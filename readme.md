@@ -1,39 +1,48 @@
-VitaVis 0.9
+VitaVis 1.0
 -----------
 
 by [Roman Lehnhof] (http://www.lehnhof.net)
 
-VitaVis is an open HTML/CSS framework for standardised, non-linear CVs (see [example](http://lehnhof.net/vitavis/picard/cv.html)). To create your own theme, override the stylesheet. Leave class and ID selectors untouched to retain data comparability (see "future plans" below).
+VitaVis is an open HTML/CSS/JS framework for standardised, interactive CVs (see [example](http://lehnhof.net/vitavis/picard/cv.html)). To create your own theme, modify/override the stylesheet. Leave template and CSS selectors intact to retain data comparability (see "future plans" below).
 
 You can run multiple vitas in one folder.
 
-This is a prototype, please make suggestions.
+###Version history
 
-##Files
-    assets               - Folder containing CSS files and images
-	assets\font-awesome  - Folder containing icon set
-	assets\normalize.css - Anti-CSS
-	assets\style.css     - Stylesheet
-    demo.html            - Demo vita
+1.0
 
-###Future plans
+* Added inline-block display for timeline items
+* Fixed timeline hover effect
+* Made sections collapsible
+* Minor documentation improvements
+* Minor markup improvements
+* Minor CSS improvements
 
-* Print stylesheet
-* Pre-processor with UI for applicants
-* Post-processor with UI for employers
+0.9
 
-###Basic use case
+* Initial release
+
+###Use case
 
 1. Download
-2. Modify content of demo vita
-3. Write your own stylesheet, if needed
-4. Name folder and file as you see fit
+2. Modify demo vita (cv.html)
+3. Optional: Modify/override stylesheet
+4. Optional: Rename folder and vita
 5. Upload to own web space
+6. Optional: Share your VitaVis experience :)
+
+###Open Tickets
+
+* Print stylesheet
+* Pre-processor with Web UI generating PDF and production-ready ZIP file
+* Post-processor with Web UI and filters for employers
+* Responsive template
 
 ###Notes
 
 * Roboto font by Christian Robertson - http://www.google.com/fonts/specimen/Roboto
 * Font Awesome icon set by Dave Gandy - http://fontawesome.io
 * CSS Timeline inspired by Matt Bango - http://mattbango.com/notebook/code/pure-css-timeline/
-* Progress bars inspired by Bootstrap - http://getbootstrap.com/2.3.2/components.html#progress
+* Collapsible JS by Bootstrap - http://getbootstrap.com/javascript/#collapse
+* Progress bar CSS inspired by Bootstrap - http://getbootstrap.com/components/#progress
 
